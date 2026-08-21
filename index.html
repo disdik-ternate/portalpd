@@ -1,25 +1,22 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-    <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portal Peserta Didik - Dinas Pendidikan Kota Ternate</title>
     
-    <!-- Kode untuk memanggil Favicon -->
+    <!-- Ini kode untuk memanggil logo Anda -->
     <link rel="icon" type="image/png" href="logo.png">
     
-    <style>
-    
-    <!-- CSS untuk memastikan iframe menutupi 100% layar tanpa border atau scroll ganda -->
+    <!-- Ini kode CSS yang terhapus/rusak sebelumnya (PENTING untuk Full Screen) -->
     <style>
         body, html {
             margin: 0;
             padding: 0;
-            height: 100%;
-            width: 100%;
-            overflow: hidden; /* Mencegah scrollbar tambahan dari body */
-            background-color: #f8fafc;
+            height: 100vh; /* Memaksa tinggi halaman 100% dari layar */
+            width: 100vw;  /* Memaksa lebar halaman 100% dari layar */
+            overflow: hidden; /* Menghilangkan scrollbar ganda */
+            background-color: #0f172a; /* Menyamakan warna background dengan Apps Script */
         }
         iframe {
             width: 100%;
@@ -30,10 +27,7 @@
     </style>
 </head>
 <body>
-    <!-- 
-      PASTE URL WEB APP GOOGLE SCRIPT ANDA DI ATRIBUT src DI BAWAH INI. 
-      Pastikan URL diakhiri dengan /exec
-    -->
+    <!-- Link Google Apps Script Anda -->
     <iframe src="https://script.google.com/macros/s/AKfycbx9w90-Yz0iar87ryzXgNvYtGm401bilWKkeDqhHaR_jisrQHqL0Xeqfla1Z9hLYxWliw/exec" allowfullscreen></iframe>
 </body>
 </html>
