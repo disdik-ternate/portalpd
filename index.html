@@ -48,7 +48,7 @@
   <!-- PERUBAHAN: ganti URL di bawah ini dengan URL Apps Script Anda sendiri -->
   <iframe
     id="appFrame"
-    src="https://script.google.com/macros/s/AKfycbzQ3EhlnbMkxj24JUE8oTnp1pjsRcZqHBWi5VJUZFGlbjZJn97_60JXJhrqp6OQr6Kmpw/exec"
+    src="https://script.google.com/macros/s/AKfycbxUu51YTOKvEUkhEfTpX1e9_sRNB20zfp1UFYLgomwRfJTVyEgdaJ3DuElEgtR8pr585Q/exec"
     onload="document.getElementById('loadingScreen').style.opacity='0'; setTimeout(()=>{document.getElementById('loadingScreen').style.display='none';}, 400);"
     allow="clipboard-read; clipboard-write"
   ></iframe>
@@ -57,7 +57,7 @@
     // PERUBAHAN: kalau ada parameter di URL GitHub Pages ini (misalnya ?t=xxx dari
     // tombol "Buka di Tab Baru"), teruskan parameter yang sama ke dalam iframe.
     (function() {
-      const baseSrc = "https://script.google.com/macros/s/AKfycbzQ3EhlnbMkxj24JUE8oTnp1pjsRcZqHBWi5VJUZFGlbjZJn97_60JXJhrqp6OQr6Kmpw/exec";
+      const baseSrc = "https://script.google.com/macros/s/AKfycbxUu51YTOKvEUkhEfTpX1e9_sRNB20zfp1UFYLgomwRfJTVyEgdaJ3DuElEgtR8pr585Q/exec";
       const params = window.location.search; // contoh: "?t=abc123"
       if (params) {
         document.getElementById('appFrame').src = baseSrc + params;
